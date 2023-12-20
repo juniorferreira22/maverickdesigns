@@ -4,7 +4,7 @@
     top: 25vh;
     gap: 2rem;
 
-    height: 25rem;
+    height: 55vh;
     max-height: 60vh;
     max-width: 70vw;
     width: 65%;
@@ -75,8 +75,8 @@ input[type=tel] {
     color: #FFFFFF;
     background-color: #000;
     border-radius: 1rem;
-    width: 20rem;
-    height: 4.25rem;
+    width: 22vw;
+    height: 11vh;
     font-weight: 800;
     font-size: 2vh;
     margin-left: 66.6%;
