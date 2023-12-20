@@ -1,0 +1,19 @@
+.socialmedia {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10vw;
+    margin-top: 13vh;
+    max-width: 3vw;
+}
+
+.socialmedia__anchor {
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.socialmedia__anchor:hover {
+    scale: 1.2;
+    filter: brightness(25%);
+}

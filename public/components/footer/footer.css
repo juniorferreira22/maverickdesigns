@@ -1,0 +1,9 @@
+.footer{
+    position: fixed;
+    text-align: center;
+    rotate: -90deg;
+    margin-left: 90vw;
+    margin-top: 25vh;
+    overflow: visible;
+    font-size: 10pt;
+}

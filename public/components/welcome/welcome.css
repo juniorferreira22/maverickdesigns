@@ -1,0 +1,26 @@
+.welcoming p {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.nave {
+    width: 20rem;
+    height: 30vh;
+    flex-shrink: 0;
+    background: url("../../assets/nave.jpeg") rgb(255, 255, 255) 50% / cover no-repeat;
+    background-blend-mode: darken;
+    mix-blend-mode: darken;
+    margin: auto;
+}
+
+.welcoming__container {
+    margin: auto;
+    position: absolute;
+    margin: 0 27.5%;
+    text-align: center;
+    width: 40rem;
+}
+
+.godown__img {
+    margin-top: 7vh;
+}

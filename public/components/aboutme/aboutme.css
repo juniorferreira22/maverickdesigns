@@ -1,0 +1,52 @@
+.aboutme{
+    position: absolute;
+    margin: 0 27.5vw;
+    width: 38rem;
+    max-width: 40rem;
+}
+
+.aboutme__title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    width: 100%;
+    margin-top: -2rem;
+    margin-bottom: 4.5rem;
+}
+
+.aboutme__firstsession{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.aboutme__secondtitle{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.aboutme__image{
+    width: 27rem;
+    height: 20rem;
+    flex-shrink: 0;
+    border-radius: 2rem;
+    border: 5px solid #000;
+}
+
+.images{
+    display: flex;
+    margin-top: 5rem;
+    gap: .5rem;
+}

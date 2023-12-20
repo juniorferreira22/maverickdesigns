@@ -1,0 +1,25 @@
+.navbar {
+    width: 45rem;
+    height: 2.375rem;
+
+    color: #000000;
+    position: absolute;
+    top: 12vh;
+    right: 2vw;
+    text-align: center;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar__button {
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.navbar__button:hover {
+    scale: 1.2;
+}
