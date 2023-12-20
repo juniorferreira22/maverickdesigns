@@ -1,8 +1,8 @@
 .aboutme{
     position: absolute;
     margin: 0 27.5vw;
-    width: 38rem;
-    max-width: 40rem;
+    width: 50vw;
+    max-width: 50vw;
 }
 
 .aboutme__title{
@@ -49,4 +49,9 @@
     display: flex;
     margin-top: 5rem;
     gap: .5rem;
+}
+
+.list-item{
+    font-size: 22px;
+    font-weight: 500;
 }
