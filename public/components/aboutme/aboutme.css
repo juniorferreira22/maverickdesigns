@@ -54,4 +54,7 @@
 .list-item{
     font-size: 22px;
     font-weight: 500;
+    max-width: 30vw;
+    margin: auto;
+    text-align: center;
 }
