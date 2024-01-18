@@ -1,0 +1,48 @@
+.container{
+    /* border: solid 2px red; */
+    position: absolute;
+    margin: 0 27.5vw;
+    width: 58vw;
+    max-width: 58vw;
+    height: 60vh;
+}
+
+.container__image{
+    position: fixed;
+    width: 30rem;
+    height: 20rem;
+    background: rgb(172, 172, 172);
+}
+
+.container__button{
+    scale: 0.8;
+    position: fixed;
+    top: 50vh;
+    background: none;
+    transition: 400ms;
+}
+
+.container__button:hover{
+    scale: 1;
+}
+#previous{
+    left: 17vw;
+    rotate: 90deg;
+}
+
+#next{
+    right: 12vw;
+    rotate: -90deg;
+}
+
+#image1{
+    z-index: 1;
+    left: 25vw;
+    top: 28vh;
+}
+
+#image2{
+    z-index: 0;
+    right: 20vw;
+    top: 52vh;
+}

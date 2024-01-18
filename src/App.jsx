@@ -6,6 +6,7 @@ import "../public/components/navbar/navbar.css"
 import { useState } from 'react'
 import AboutMe from '../public/components/aboutme/aboutme'
 import Footer from '../public/components/footer/footer'
+import Designs from '../public/components/designs/designs'
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
         {/* clicar span  home = renderizar welcome */}
         <span onClick={() => setPage(<Welcome />)} id='home' className='navbar__button'>Home</span>
 
-        <span id='designs' className='navbar__button'>Designs</span>
+        <span onClick={() => setPage(<Designs />)} id='designs' className='navbar__button'>Designs</span>
 
         <span onClick={() => setPage(<AboutMe />)} id='aboutme' className='navbar__button'>Sobre Mim</span>
 

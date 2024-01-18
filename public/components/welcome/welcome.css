@@ -14,13 +14,18 @@
 }
 
 .welcoming__container {
-    margin: auto;
-    position: absolute;
-    margin: 0 27.5%;
     text-align: center;
-    width: 40rem;
+    position: absolute;
+    margin: 0 27.5vw;
+    width: auto;
+    max-width: 50vw;
 }
 
 .godown__img {
     margin-top: 7vh;
+    transition: 400ms;
+}
+
+.godown__img:hover{
+    scale: 1.2;
 }
