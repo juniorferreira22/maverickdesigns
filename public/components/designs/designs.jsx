@@ -1,13 +1,14 @@
 import { useState } from "react"
 import "./designs.css"
+import button from "./assets/button.svg"
 export default function Designs(props){
 
-    const[container,setContainer] = useState()
+    // const[container,setContainer] = useState()
 
     return(
        <>
                 <button id="previous" className="container__button" onClick="">
-                    <img src="public/assets/godown.svg" alt="" />
+                    <img src={button} alt="previous" />
                 </button>
 
                 <div className="container">
@@ -36,7 +37,7 @@ export default function Designs(props){
 
                 </div>
             <button id="next" className="container__button"  onClick="">
-                <img src="public/assets/godown.svg" alt="" />
+                <img src={button} alt="next" />
             </button>
         </>
     )
