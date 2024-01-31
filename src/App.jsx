@@ -10,7 +10,7 @@ import Designs from '../public/components/designs/designs'
 
 function App() {
 
-  const[page,setPage] = useState(<Welcome />)
+  const [page, setPage] = useState(<Welcome />)
 
   // quando ativo, renderiza a pagina de bem vindo na variavel
 
@@ -20,7 +20,7 @@ function App() {
 
       {/* barra de navegacao, onde cada clique renderiza algo dentro do main */}
       <nav className='navbar'>
-        
+
         {/* clicar span  home = renderizar welcome */}
         <span onClick={() => setPage(<Welcome />)} id='home' className='navbar__button'>Home</span>
 
